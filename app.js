@@ -18,6 +18,8 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+console.log(process.env.DB_HOST)
+
 // Mongoose connection
 mongoose
   .connect(process.env.DB_HOST, {
