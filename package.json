@@ -1,0 +1,22 @@
+{
+  "name": "ar-furniture",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --inspect app.js"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^1.12.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.4.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16"
+  }
+}
